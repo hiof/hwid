@@ -25,7 +25,7 @@ The HWID-file will be saved as *serialnumber*.csv to a folder named "HWID" on th
 2. Enter the following command:
 
     ````powershell
-    powershell D:\Get-HWID.ps1
+    powershell -executionpolicy bypass D:\Get-HWID.ps1
     ````
 
 3. Wait until "HWID saved!" is logged to the console.
