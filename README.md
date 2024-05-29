@@ -3,6 +3,7 @@
 ## Instructions
 
 Pull all contents of this repository and save on an empty USB-drive.
+To download, click the green "Code"-button in the top right hand corner of [hiof/hwid](https://github.com/hiof/hwid) - then click "Download ZIP". Extract the contents of the zip archive to a USB-drive.
 
 ### Getting HWID from a new device
 
