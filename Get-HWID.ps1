@@ -17,7 +17,11 @@ if ($null -eq $scriptPath) {
 Write-Host "Script is running from: $scriptPath"
 
 # Set the output file path
-$OutputFile = "$scriptPath" + "HWID\$serial.csv"
+if ($scriptPath -like "C:\*") {
+    $OutputFile = "$scriptPath" + "\HWID\$serial.csv"
+} else {
+    $OutputFile = "$scriptPath" + "HWID\$serial.csv"
+}
 Write-Host "Output file: $OutputFile"
 
 # Check if the HWID folder exists
