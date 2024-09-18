@@ -30,7 +30,13 @@ The HWID-file will be saved as *serialnumber*.csv to a folder named "HWID" on th
     ````
 
 3. Wait until "HWID saved!" is logged to the console.
-4. Eject the USB-drive
+4. Shut down the PC
+
+    ````powershell
+    shutdown /s /t 0
+    ````
+
+5. Eject the USB-drive
 
 ### Merging multiple HWIDs
 
